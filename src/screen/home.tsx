@@ -40,10 +40,14 @@ export default function Home() {
     const navigate = useNavigate();
 
     const images = [
-        require(`../resources/images/image1.jpg`),
-        require(`../resources/images/image2.jpg`),
-        require(`../resources/images/image3.jpg`),
-        require(`../resources/images/image4.jpg`),
+        // require(`../resources/images/image1.jpg`),
+        // require(`../resources/images/image2.jpg`),
+        // require(`../resources/images/image3.jpg`),
+        // require(`../resources/images/image4.jpg`),
+        require(`../resources/images/test1.jpg`),
+        require(`../resources/images/test2.jpg`),
+        require(`../resources/images/test3.jpg`),
+        require(`../resources/images/test4.jpg`),
     ];
 
     const [imageIndex, setImageIndex] = useState<number>(0);
