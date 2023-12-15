@@ -15,7 +15,7 @@ import { useSetRecoilState } from "recoil";
 import { useEffect } from "react";
 import { currentMode } from "./project_common";
 
-const router = createHashRouter(
+const router = createBrowserRouter(
     [
         {
             path: "/",
@@ -71,8 +71,8 @@ const router = createHashRouter(
                 },
             ],
         },
-    ],
-    { basename: "/instead_of_me_flower_shop" }
+    ]
+    // { basename: "/instead_of_me_flower_shop" }
 );
 
 function App() {
