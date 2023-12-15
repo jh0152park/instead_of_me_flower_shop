@@ -5,7 +5,11 @@ import { go_to_top } from "../utils/util";
 export default function Header() {
     const navigate = useNavigate();
     const location = useLocation();
-    const basePath = ["/", "/instead_of_me_flower_shop"];
+    const basePath = [
+        "/",
+        "/instead_of_me_flower_shop",
+        "/instead_of_me_flower_shop/",
+    ];
 
     console.log(location.pathname);
     console.log(basePath.includes(location.pathname));
