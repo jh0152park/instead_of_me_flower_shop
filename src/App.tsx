@@ -1,4 +1,8 @@
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import {
+    RouterProvider,
+    createBrowserRouter,
+    createHashRouter,
+} from "react-router-dom";
 
 import NotFound from "./components/notfound";
 import Layout from "./components/layout";
@@ -11,62 +15,65 @@ import { useSetRecoilState } from "recoil";
 import { useEffect } from "react";
 import { currentMode } from "./project_common";
 
-const router = createBrowserRouter([
-    {
-        path: "/",
-        element: <Layout />,
-        errorElement: <NotFound />,
-        children: [
-            {
-                path: "",
-                element: <Home />,
-            },
-            {
-                path: "shop",
-                element: <Shop />,
-            },
-            {
-                path: "order",
-                element: <Order />,
-            },
-            {
-                path: "class",
-                element: <Class />,
-            },
-            {
-                path: "directing",
-                element: <Directing />,
-            },
-        ],
-    },
-    {
-        path: "/instead_of_me_flower_shop",
-        element: <Layout />,
-        errorElement: <NotFound />,
-        children: [
-            {
-                path: "",
-                element: <Home />,
-            },
-            {
-                path: "shop",
-                element: <Shop />,
-            },
-            {
-                path: "order",
-                element: <Order />,
-            },
-            {
-                path: "class",
-                element: <Class />,
-            },
-            {
-                path: "directing",
-                element: <Directing />,
-            },
-        ],
-    },
-]);
+const router = createHashRouter(
+    [
+        {
+            path: "/",
+            element: <Layout />,
+            errorElement: <NotFound />,
+            children: [
+                {
+                    path: "",
+                    element: <Home />,
+                },
+                {
+                    path: "shop",
+                    element: <Shop />,
+                },
+                {
+                    path: "order",
+                    element: <Order />,
+                },
+                {
+                    path: "class",
+                    element: <Class />,
+                },
+                {
+                    path: "directing",
+                    element: <Directing />,
+                },
+            ],
+        },
+        {
+            path: "/instead_of_me_flower_shop",
+            element: <Layout />,
+            errorElement: <NotFound />,
+            children: [
+                {
+                    path: "",
+                    element: <Home />,
+                },
+                {
+                    path: "shop",
+                    element: <Shop />,
+                },
+                {
+                    path: "order",
+                    element: <Order />,
+                },
+                {
+                    path: "class",
+                    element: <Class />,
+                },
+                {
+                    path: "directing",
+                    element: <Directing />,
+                },
+            ],
+        },
+    ],
+    { basename: "/instead_of_me_flower_shop" }
+);
 
 function App() {
     const setCurrentMode = useSetRecoilState(currentMode);
