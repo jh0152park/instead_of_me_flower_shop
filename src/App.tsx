@@ -15,7 +15,7 @@ import { useSetRecoilState } from "recoil";
 import { useEffect } from "react";
 import { currentMode } from "./project_common";
 
-const router = createBrowserRouter(
+const router = createHashRouter(
     [
         {
             path: "/",
