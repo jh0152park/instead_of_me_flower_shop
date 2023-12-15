@@ -7,6 +7,9 @@ export default function Header() {
     const location = useLocation();
     const basePath = ["/", "/instead_of_me_flower_shop"];
 
+    console.log(location.pathname);
+    console.log(basePath.includes(location.pathname));
+
     return (
         <Center
             w="100%"
