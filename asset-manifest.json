@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.js": "/instead_of_me_flower_shop/static/js/main.7152c769.js",
+    "static/media/image2.jpg": "/instead_of_me_flower_shop/static/media/image2.59309d6572047a6534e5.jpg",
+    "static/media/image3.jpg": "/instead_of_me_flower_shop/static/media/image3.34c00794e7d14d90683e.jpg",
+    "static/media/bouquet.jpg": "/instead_of_me_flower_shop/static/media/bouquet.d042a03d0672eafc4b3f.jpg",
+    "static/media/business.jpg": "/instead_of_me_flower_shop/static/media/business.f3bc28efd4c05442e14f.jpg",
+    "static/media/space.jpg": "/instead_of_me_flower_shop/static/media/space.ef444b252d9ed79501af.jpg",
+    "static/media/directing.jpg": "/instead_of_me_flower_shop/static/media/directing.ec7e844d43419cb716db.jpg",
+    "static/media/basic.jpg": "/instead_of_me_flower_shop/static/media/basic.7d0853b30b3c709eb08f.jpg",
+    "static/media/class.jpg": "/instead_of_me_flower_shop/static/media/class.a727bb465d1edb681fcc.jpg",
+    "static/media/florist.jpg": "/instead_of_me_flower_shop/static/media/florist.2560fb7a53237e187112.jpg",
+    "static/media/image4.jpg": "/instead_of_me_flower_shop/static/media/image4.8122ecf3c8e063a2d29a.jpg",
+    "static/media/image1.jpg": "/instead_of_me_flower_shop/static/media/image1.c83641fd1b5987f06e2c.jpg",
+    "static/media/hand tied.jpg": "/instead_of_me_flower_shop/static/media/hand tied.148f4332eb732057027f.jpg",
+    "static/media/order.jpg": "/instead_of_me_flower_shop/static/media/order.5af8b792e19d4efd2525.jpg",
+    "static/media/hobby.jpg": "/instead_of_me_flower_shop/static/media/hobby.799f04121d0a307fc499.jpg",
+    "static/media/basket.jpg": "/instead_of_me_flower_shop/static/media/basket.aeb369fbf7bfa434aa72.jpg",
+    "static/media/centerpiece.jpg": "/instead_of_me_flower_shop/static/media/centerpiece.c395807e88b56dbb3b67.jpg",
+    "static/media/plant.jpg": "/instead_of_me_flower_shop/static/media/plant.bee2b4f9884941be3711.jpg",
+    "index.html": "/instead_of_me_flower_shop/index.html",
+    "main.7152c769.js.map": "/instead_of_me_flower_shop/static/js/main.7152c769.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.7152c769.js"
+  ]
+}
