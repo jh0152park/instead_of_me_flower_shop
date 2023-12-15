@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/instead_of_me_flower_shop/static/js/main.c41da20b.js",
+    "main.js": "/instead_of_me_flower_shop/static/js/main.3127886a.js",
     "static/media/image2.jpg": "/instead_of_me_flower_shop/static/media/image2.59309d6572047a6534e5.jpg",
     "static/media/image3.jpg": "/instead_of_me_flower_shop/static/media/image3.34c00794e7d14d90683e.jpg",
     "static/media/bouquet.jpg": "/instead_of_me_flower_shop/static/media/bouquet.d042a03d0672eafc4b3f.jpg",
@@ -19,9 +19,9 @@
     "static/media/centerpiece.jpg": "/instead_of_me_flower_shop/static/media/centerpiece.c395807e88b56dbb3b67.jpg",
     "static/media/plant.jpg": "/instead_of_me_flower_shop/static/media/plant.bee2b4f9884941be3711.jpg",
     "index.html": "/instead_of_me_flower_shop/index.html",
-    "main.c41da20b.js.map": "/instead_of_me_flower_shop/static/js/main.c41da20b.js.map"
+    "main.3127886a.js.map": "/instead_of_me_flower_shop/static/js/main.3127886a.js.map"
   },
   "entrypoints": [
-    "static/js/main.c41da20b.js"
+    "static/js/main.3127886a.js"
   ]
 }

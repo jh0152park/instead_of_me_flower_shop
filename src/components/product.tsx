@@ -47,11 +47,13 @@ export default function Product({ product, price, image }: IProps) {
                     <Text fontFamily={"Cormorant"} fontSize={"20px"}>
                         {product}
                     </Text>
-                    <Text fontFamily={"Cormorant"} fontSize={"15px"}>
-                        {typeof price === "number"
-                            ? `${price.toLocaleString("ko-KR")} 원`
-                            : price}
-                    </Text>
+                    {typeof price === "number" ? (
+                        <Text fontFamily={"Cormorant"} fontSize={"20px"}>
+                            {`${price.toLocaleString("ko-KR")} won`}
+                        </Text>
+                    ) : (
+                        <Text>가격문의</Text>
+                    )}
                 </VStack>
             </Center>
         </VStack>
