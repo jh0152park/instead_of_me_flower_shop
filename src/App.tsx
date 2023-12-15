@@ -39,6 +39,33 @@ const router = createBrowserRouter([
             },
         ],
     },
+    {
+        path: "/instead_of_me_flower_shop",
+        element: <Layout />,
+        errorElement: <NotFound />,
+        children: [
+            {
+                path: "",
+                element: <Home />,
+            },
+            {
+                path: "shop",
+                element: <Shop />,
+            },
+            {
+                path: "order",
+                element: <Order />,
+            },
+            {
+                path: "class",
+                element: <Class />,
+            },
+            {
+                path: "directing",
+                element: <Directing />,
+            },
+        ],
+    },
 ]);
 
 function App() {
