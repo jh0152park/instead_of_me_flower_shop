@@ -42,7 +42,7 @@ export default function Product({ product, price, image }: IProps) {
                     transition="all 0.2s linear"
                 />
             </Box>
-            <Center w="410px" h="100px">
+            <Center w={size} h="100px">
                 <VStack>
                     <Text fontFamily={"Cormorant"} fontSize={"20px"}>
                         {product}
