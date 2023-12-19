@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/instead_of_me_flower_shop/static/js/main.91c4363e.js",
+    "main.js": "/instead_of_me_flower_shop/static/js/main.2bf695e4.js",
     "static/media/bouquet.jpg": "/instead_of_me_flower_shop/static/media/bouquet.d042a03d0672eafc4b3f.jpg",
     "static/media/business.jpg": "/instead_of_me_flower_shop/static/media/business.f3bc28efd4c05442e14f.jpg",
     "static/media/space.jpg": "/instead_of_me_flower_shop/static/media/space.ef444b252d9ed79501af.jpg",
@@ -19,9 +19,9 @@
     "static/media/test1.jpg": "/instead_of_me_flower_shop/static/media/test1.60e2a4ebc3c4809cea81.jpg",
     "static/media/plant.jpg": "/instead_of_me_flower_shop/static/media/plant.bee2b4f9884941be3711.jpg",
     "index.html": "/instead_of_me_flower_shop/index.html",
-    "main.91c4363e.js.map": "/instead_of_me_flower_shop/static/js/main.91c4363e.js.map"
+    "main.2bf695e4.js.map": "/instead_of_me_flower_shop/static/js/main.2bf695e4.js.map"
   },
   "entrypoints": [
-    "static/js/main.91c4363e.js"
+    "static/js/main.2bf695e4.js"
   ]
 }
