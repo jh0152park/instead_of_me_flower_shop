@@ -14,6 +14,7 @@ import Directing from "./screen/directing";
 import { useSetRecoilState } from "recoil";
 import { useEffect } from "react";
 import { currentMode } from "./project_common";
+import License from "./screen/license";
 
 const router = createHashRouter(
     [
@@ -42,6 +43,10 @@ const router = createHashRouter(
                     path: "directing",
                     element: <Directing />,
                 },
+                {
+                    path: "license",
+                    element: <License />,
+                },
             ],
         },
         {
@@ -68,6 +73,10 @@ const router = createHashRouter(
                 {
                     path: "directing",
                     element: <Directing />,
+                },
+                {
+                    path: "license",
+                    element: <License />,
                 },
             ],
         },
